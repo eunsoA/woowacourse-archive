@@ -20,31 +20,37 @@
 ## 🥔 프리코스, 최종 코딩 테스트
 | Mission            | Repository              | Pull Request |
 |--------------------|------------------------|--------------|
-| 숫자 야구           | kotlin-baseball-6      | PR-45        |
-| 자동차 경주         | kotlin-racingcar-6     | PR-65        |
-| 로또                | kotlin-lotto-6         | PR-54        |
-| 크리스마스 프로모션 | kotlin-christmas-6     | -            |
-| 개발자 비상근무     | kotlin-oncall-6        | -            |
+| 문자열 계산기 | [javascript-calculator-7](https://github.com/eunsoA/javascript-calculator-7) | [PR](https://github.com/woowacourse-precourse/javascript-calculator-7/pull/449)| 
+| 자동차 경주 | [javascript-racingcar-7](https://github.com/eunsoA/javascript-racingcar-7)     | [PR](https://github.com/woowacourse-precourse/javascript-racingcar-7/pull/348) | 
+| 로또  | [javascript-lotto-7](https://github.com/eunsoA/javascript-lotto-7) | [PR](https://github.com/woowacourse-precourse/javascript-lotto-7/pull/333)  | 
+| 편의점 | [javascript-convenience-store-7](https://github.com/eunsoA/javascript-convenience-store-7-eunsoA)    | - |
 
 <br/>
 
 ## 1️⃣ 레벨 1
-목표 : 구현을 위한 설계보다는, 객체지향적으로 설계하는 역량을 기르기
+### 미션
+목표 : 효과적인 프로그래밍 학습 방법에 대해 고민해보고 개발 과정에서의 재미와 성취감을 경험하기
 
-> 코틀린 언어에 대한 문법을 익히고 코틀린스럽게 코드를 작성한다.
-> 읽기 좋은 코드를 구현하는 것이 왜 중요한지를 알고, 코드를 개선해 읽기 좋은 코드로 변경한다.
-> 자신이 구현한 코드에 대해 단위 테스트를 작성한다.
+> 작은 규모의 어플리케이션들을 만들어보면서 JavaScript/TypeScript 언어의 주요 문법들을 깊이 있게 학습한다.
+> 유지보수하기 좋은 코드의 필요성을 경험하고, 어떻게 하면 유지보수하기 좋은 코드를 작성할 수 있을지 고민하고 적용해본다.
+> E2E 테스트와 단위 테스트 코드를 작성해보고, 이를 기반으로 리팩터링하며 테스트 코드의 필요성을 경험해본다.
+> 주어진 디자인을 웹 표준을 준수하는 UI로 구현해보고, 프론트엔드 개발자로서 고려해야 할 UX에 대해 고민해본다.
 
-| Mission    | Repository         | Step 1  | Step 2  | 회고  |
-|------------|-------------------|---------|---------|-------|
-| 자동차 경주 | kotlin-racingcar   | PR-100  | PR-116  | 링크  |
-| 로또       | kotlin-lotto       | PR-74   | PR-94   | 링크  |
-| 블랙잭     | kotlin-blackjack   | PR-72   | PR-97   | 링크  |
-| 오목       | kotlin-omok        | PR-62   | PR-93   | 링크  |
+| Mission    | Repository         | Step 1  | Step 2  |
+|------------|-------------------|---------|---------|
+| 자동차 경주 | [javascript-racingcar](https://github.com/eunsoA/javascript-racingcar)   | [PR-359](https://github.com/woowacourse/javascript-racingcar/pull/359)  | [PR-415](https://github.com/woowacourse/javascript-racingcar/pull/415) |
+| 로또       | [javascript-lotto](https://github.com/eunsoA/javascript-lotto)       | [PR-370](https://github.com/woowacourse/javascript-lotto/pull/370)   | [PR-409](https://github.com/woowacourse/javascript-lotto/pull/409)   |
+| 점심뭐먹지     | [javascript-lunch](https://github.com/eunsoA/javascript-lunch)   | [PR-209](https://github.com/woowacourse/javascript-lunch/pull/209)   | [PR-239](https://github.com/woowacourse/javascript-lunch/pull/239)   |
+| 영화 리뷰   | [javascript-movie-review](https://github.com/eunsoA/javascript-movie-review)   | [PR-211](https://github.com/woowacourse/javascript-movie-review/pull/211)   | [PR-224](https://github.com/woowacourse/javascript-movie-review/pull/224) |
+
+### 스터디
+- [코테 스터디](https://github.com/algorithm-study-3/algorithm-1-level1/tree/claire)
+- [코어 자바스크립트 스터디]()
 
 <br/>
 
 ## 2️⃣ 레벨 2
+### 미션
 목표 : 안드로이드 신입 개발자를 뛰어넘는 지식을 흡수하기
 
 > 안드로이드 프레임워크의 기본 구성요소와 View 컴포넌트, UI 테스트를 위한 Espresso 사용, MVP 아키텍처, Presenter 테스트에 대해 학습한다.
@@ -52,24 +58,31 @@
 > 스크롤 가능한 컴포넌트의 데이터를 로드하는 방법을 학습하고 적용할 수 있다. 복잡한 상태를 조작하여 뷰에 노출될 데이터를 관리하는 경험을 한다. MVVM 아키텍처를 학습한다.
 > 비동기 통신 방법을 학습한다. 비동기적으로 서버의 데이터를 가져와 뷰에 노출한다. ViewModel에서 Coroutines를 사용하고 이를 테스트하는 방법에 대해 학습한다.
 
-| Mission         | Repository               | Step 1, 2 | Step 3, 4 | 회고  |
+| Mission         | Repository               | Step 1 | Step 2 | 회고  |
 |-----------------|-------------------------|-----------|-----------|-------|
 | 영화 티켓 예매   | android-movie-ticket     | PR-72     | PR-83     | 링크  |
 | 영화 극장 선택   | android-movie-theater    | PR-57     | PR-75     | 링크  |
 | 쇼핑 장바구니    | android-shopping-cart    | PR-54     | PR-79     | 링크  |
 | 쇼핑 주문        | android-shopping-order   | PR-65     | PR-79     | 링크  |
 
+### 스터디
+- [코테 스터디](https://github.com/algorithm-study-3/algorithm-1-level2/tree/claire)
+- [리액트 공식문서 읽기 스터디]()
+
 <br/>
 
 ## 3️⃣ 레벨 3
+### 프로젝트
 목표 : 여러 문제에 부딪혀보고 깊게 고민해보기
 
-" " 서비스 소개
+"모잇지(Moitz)" 서비스 소개
 > 더 이상 "너 어디야?"라고 물어보지 마세요. 약속을 더욱 즐겁고 편안하게, 여러분의 우정을 더욱 돈독하게 만들어 드릴게요.
 
 - [깃허브 링크]()
 - [맡은 PR 모아보기]()
 
+### 스터디
+- [코테 스터디]()
 <br/>
 
 ## 4️⃣ 레벨 4
